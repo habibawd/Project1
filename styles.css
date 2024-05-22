@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .pink {
+    color: #ff1493;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #ff1493;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome, .browser-compatibility {
+    margin-bottom: 20px;
+}
+
+.welcome h2, .browser-compatibility h2 {
+    color: #ff1493;
+}
+
+.welcome a, .browser-compatibility a {
+    color: #ff1493;
+    text-decoration: none;
+}
+
+.welcome a:hover, .browser-compatibility a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+aside section {
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    border-bottom: 1px solid #ff1493;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+aside a {
+    color: #ff1493;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside .latest-news article {
+    margin-bottom: 10px;
+}
+
+aside .search form {
+    display: flex;
+}
+
+aside .search input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+}
+
+aside .search button {
+    padding: 5px 10px;
+    background-color: #ff1493;
+    border: 1px solid #ff1493;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+}
